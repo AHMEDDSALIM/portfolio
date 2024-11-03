@@ -30,22 +30,6 @@ body {
   border-radius: 50%;
   z-index: 1;
 }
-.sideNav {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-  right: 0;
-  height: 97vh;
-  background-color: #e0e0e0;
-  overflow: hidden;
-  transition: 0.5s;
-}
-.sideNav .closeBtn {
-  position: absolute;
-  top: 20px;
-  left: 10px;
-  margin-left: 25px;
-}
 .list li {
   position: absolute;
   left: 100%;

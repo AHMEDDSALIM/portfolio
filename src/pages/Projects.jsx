@@ -1,5 +1,6 @@
 import ProjectCard from '../components/ProjectCard';
 import dnoteimage from '../assets/projectImages/Dental Notes.png';
+import comingSoon from '../assets/projectImages/comingSoon.gif';
 import { motion } from 'framer-motion';
 const projects = [
   {
@@ -10,6 +11,14 @@ const projects = [
     image: dnoteimage,
     link: 'https://dental-notes-738ca.web.app',
   },
+  {
+    id: 2,
+    name: 'Coming soon..',
+    desc: 'Cooking something ',
+    releaseDate: '',
+    image: comingSoon,
+    link: '/',
+  },
 ];
 function Projects() {
   return (
@@ -17,7 +26,7 @@ function Projects() {
       <h1 className="text-[#34495E] text-3xl mb-10">My Projects</h1>
       <div className="w-11/12">
         <motion.div
-          className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-3 justify-items-center"
+          className="grid grid-cols-[repeat(auto-fit,minmax(384px,1fr))] gap-3 justify-items-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
         >
@@ -28,7 +37,7 @@ function Projects() {
                 name={project.name}
                 desc={project.desc}
                 releaseDate={project.releaseDate}
-                image={dnoteimage}
+                image={project.image}
                 link={project.link}
               />
             );

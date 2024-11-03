@@ -22,6 +22,14 @@ export default function Home() {
               and visually appealing user experiences.
             </p>
           </div>
+          <a
+            target="_blank"
+            download
+            href="https://firebasestorage.googleapis.com/v0/b/ahmeddawood-007.appspot.com/o/Ahmed%20Dawood%20Salim%20Resume.pdf?alt=media&token=48140935-dcce-4ea9-9b26-8201c749abee"
+            className="bg-[#F05454] pt-1 pb-1 pl-4 pr-4 rounded-lg mt-3 text-lg hover:bg-[#D94343]"
+          >
+            Download my resume
+          </a>
         </motion.div>
         <div className="w-9/12 md:w-6/12 flex justify-center md:justify-end">
           <motion.div

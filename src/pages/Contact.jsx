@@ -88,7 +88,7 @@ function Contact() {
               placeholder="Message"
               className="outline-none rounded-sm focus:outline-2 focus:outline-[#34495E] p-2"
             ></textarea>
-            <button className="self-end bg-[#F05454] pt-1 pb-1 pl-4 pr-4 rounded-lg">
+            <button className="self-end bg-[#F05454] pt-1 pb-1 pl-4 pr-4 rounded-lg hover:bg-[#D94343]">
               Send
             </button>
           </form>
