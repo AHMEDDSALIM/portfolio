@@ -1,7 +1,7 @@
-import { Outlet } from 'react-router-dom';
-import NavBar from '../components/NavBar';
-import ParticalsBg from '../components/ParticalsBg';
-import { motion } from 'framer-motion';
+import { Outlet } from "react-router-dom";
+import NavBar from "../components/NavBar";
+import ParticalsBg from "../components/ParticalsBg";
+import { motion } from "framer-motion";
 function RootLayout() {
   return (
     <>
@@ -11,7 +11,7 @@ function RootLayout() {
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
-        transition={{ duration: 1, type: 'spring' }}
+        transition={{ duration: 1, type: "spring" }}
       >
         <NavBar />
         <Outlet />

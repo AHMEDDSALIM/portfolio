@@ -1,4 +1,4 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 function Contact() {
   function handleSendEmail(e) {
     e.preventDefault();
@@ -6,7 +6,7 @@ function Contact() {
     const data = Object.fromEntries(formData.entries());
 
     if (!data.subject || !data.message) {
-      alert('Please fill in both the subject and the message.');
+      alert("Please fill in both the subject and the message.");
       return;
     }
 
@@ -41,7 +41,7 @@ function Contact() {
                 </a>
               </li>
               <li>
-                <a href="https://t.me/AHMEDDSALIM" target="_blank">
+                <a href="/" target="_blank">
                   <svg
                     className="hover:scale-110 transition-all fill-[#222831]"
                     width={25}

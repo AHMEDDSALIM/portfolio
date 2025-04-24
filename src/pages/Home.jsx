@@ -1,5 +1,5 @@
-import { motion } from 'framer-motion';
-import SkillsSection from '../components/SkillsSection';
+import { motion } from "framer-motion";
+import SkillsSection from "../components/SkillsSection";
 export default function Home() {
   return (
     <div className="flex flex-col items-center mt-12 md:mt-44 gap-16 sm:gap-4 md:gap-20">
@@ -24,8 +24,7 @@ export default function Home() {
           </div>
           <a
             target="_blank"
-            download
-            href="https://firebasestorage.googleapis.com/v0/b/ahmeddawood-007.appspot.com/o/Ahmed%20Dawood%20Salim%20Resume.pdf?alt=media&token=48140935-dcce-4ea9-9b26-8201c749abee"
+            href="/"
             className="bg-[#F05454] pt-1 pb-1 pl-4 pr-4 rounded-lg mt-3 text-lg hover:bg-[#D94343]"
           >
             Download my resume
@@ -33,7 +32,7 @@ export default function Home() {
         </motion.div>
         <div className="w-9/12 md:w-6/12 flex justify-center md:justify-end">
           <motion.div
-            initial={{ x: '-100vw' }}
+            initial={{ x: "-100vw" }}
             animate={{ x: 0 }}
             transition={{ duration: 1 }}
             className="bg-[#F05454] imageBackground w-64 h-64 sm:w-96 sm:h-96"
