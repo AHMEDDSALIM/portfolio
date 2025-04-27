@@ -1,23 +1,23 @@
-import ProjectCard from '../components/ProjectCard';
-import dnoteimage from '../assets/projectImages/Dental Notes.png';
-import comingSoon from '../assets/projectImages/comingSoon.gif';
-import { motion } from 'framer-motion';
+import ProjectCard from "../components/ProjectCard";
+import dnoteimage from "../assets/projectImages/Dental Notes.png";
+import comingSoon from "../assets/projectImages/comingSoon.gif";
+import { motion } from "framer-motion";
 const projects = [
   {
     id: 1,
-    name: 'Dental Notes',
+    name: "Dental Notes",
     desc: "simple patients management system built using react and the back managed by firebase also it's comes with desktop app that can work offline and sync the data when online.",
-    releaseDate: '2 Months ago',
+    releaseDate: "",
     image: dnoteimage,
-    link: 'https://dental-notes-738ca.web.app',
+    link: "https://dental-notes-738ca.web.app",
   },
   {
     id: 2,
-    name: 'Coming soon..',
-    desc: 'Cooking something ',
-    releaseDate: '',
+    name: "Coming soon..",
+    desc: "Cooking something ",
+    releaseDate: "",
     image: comingSoon,
-    link: '/',
+    link: "/",
   },
 ];
 function Projects() {
