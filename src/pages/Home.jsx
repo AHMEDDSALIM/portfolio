@@ -11,7 +11,7 @@ export default function Home() {
           className="flex flex-col w-9/12 md:w-6/12 justify-center order-2 md:-order-none items-center md:items-start gap-1"
         >
           <h2 className="text-[#F05454] text-xl lg:text-2xl">
-            Hello, my name is Ahmed
+            Hello, my name is John Doe
           </h2>
           <h1 className="text-4xl lg:text-5xl text-[#34495E] font-bold text-nowrap">
             I make Websites
